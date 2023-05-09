@@ -1,0 +1,276 @@
+[0.545s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.545s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4a44940700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4a44940700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4a44940c40>)
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.608s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/athul/ros2_ws/src'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(my_bot) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.816s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athul/ros2_ws/src/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athul/ros2_ws/src/install/my_bot', 'merge_install': False, 'path': '/home/athul/ros2_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/athul/ros2_ws/src/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/athul/ros2_ws/src/install/serial_motor_demo', 'merge_install': False, 'path': '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.826s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/athul/ros2_ws/src/my_bot' with build type 'ament_cmake'
+[0.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/athul/ros2_ws/src/my_bot'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/my_bot
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/my_bot
+[2.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/my_bot -- -j4 -l4
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/my_bot -- -j4 -l4
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/my_bot
+[2.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[2.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/my_bot
+[2.864s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot' for CMake module files
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot' for CMake config files
+[2.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[2.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/bin'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/lib/pkgconfig/my_bot.pc'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/lib/python3.8/site-packages'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/bin'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.ps1'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.dsv'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.sh'
+[2.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.bash'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.zsh'
+[2.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athul/ros2_ws/src/install/my_bot/share/colcon-core/packages/my_bot)
+[2.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot' for CMake module files
+[2.937s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot' for CMake config files
+[2.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[2.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/bin'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/lib/pkgconfig/my_bot.pc'
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/lib/python3.8/site-packages'
+[2.947s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/my_bot/bin'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.ps1'
+[2.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.dsv'
+[2.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.sh'
+[2.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.bash'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.zsh'
+[2.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athul/ros2_ws/src/install/my_bot/share/colcon-core/packages/my_bot)
+[3.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs
+[3.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/serial_motor_demo_msgs -- -j4 -l4
+[10.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/serial_motor_demo_msgs -- -j4 -l4
+[10.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/serial_motor_demo_msgs
+[12.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[12.209s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs' for CMake module files
+[12.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/serial_motor_demo_msgs
+[12.211s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs' for CMake config files
+[12.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[12.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[12.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[12.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[12.216s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib'
+[12.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[12.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[12.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[12.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[12.219s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/bin'
+[12.219s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[12.220s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[12.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[12.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[12.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[12.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[12.224s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/bin'
+[12.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[12.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[12.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[12.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[12.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[12.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[12.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[12.352s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs' for CMake module files
+[12.353s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs' for CMake config files
+[12.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[12.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[12.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[12.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[12.357s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib'
+[12.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[12.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[12.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[12.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/bin'
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[12.361s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[12.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[12.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[12.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[12.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[12.365s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/bin'
+[12.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[12.368s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[12.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[12.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[12.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[12.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[12.371s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[12.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[12.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[12.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[12.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[12.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.745s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/athul/ros2_ws/src/serial_motor_demo/serial_motor_demo'
+[12.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.748s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/athul/ros2_ws/src/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/src/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/src/build/serial_motor_demo/build --no-deps install_data
+[14.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[14.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[14.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/athul/ros2_ws/src/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/src/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/src/build/serial_motor_demo/build --no-deps install_data
+[14.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[14.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[14.085s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo' for CMake module files
+[14.086s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo' for CMake config files
+[14.086s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo/lib'
+[14.086s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo/bin'
+[14.087s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[14.087s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages'
+[14.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[14.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[14.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[14.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[14.090s] Level 1:colcon.colcon_core.environment:checking '/home/athul/ros2_ws/src/install/serial_motor_demo/bin'
+[14.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[14.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[14.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[14.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[14.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[14.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[14.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/athul/ros2_ws/src/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[14.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.097s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.097s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.109s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.300s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athul/ros2_ws/src/install/local_setup.ps1'
+[14.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/athul/ros2_ws/src/install/_local_setup_util_ps1.py'
+[14.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athul/ros2_ws/src/install/setup.ps1'
+[14.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athul/ros2_ws/src/install/local_setup.sh'
+[14.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/athul/ros2_ws/src/install/_local_setup_util_sh.py'
+[14.313s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athul/ros2_ws/src/install/setup.sh'
+[14.316s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athul/ros2_ws/src/install/local_setup.bash'
+[14.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athul/ros2_ws/src/install/setup.bash'
+[14.319s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/athul/ros2_ws/src/install/local_setup.zsh'
+[14.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/athul/ros2_ws/src/install/setup.zsh'

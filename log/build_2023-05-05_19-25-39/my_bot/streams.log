@@ -1,0 +1,61 @@
+[0.037s] Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/my_bot
+[0.195s] -- The C compiler identification is GNU 9.4.0
+[0.352s] -- The CXX compiler identification is GNU 9.4.0
+[0.363s] -- Check for working C compiler: /usr/bin/cc
+[0.483s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.485s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.616s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++
+[0.751s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.754s] -- Detecting CXX compiler ABI info
+[0.888s] -- Detecting CXX compiler ABI info - done
+[0.907s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.912s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.957s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.958s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.250s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.289s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.416s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.441s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.443s] -- Added test 'lint_cmake' to check CMake code style
+[1.445s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.453s] -- Added test 'xmllint' to check XML markup files
+[1.458s] -- Configuring done
+[1.461s] -- Generating done
+[1.463s] -- Build files have been written to: /home/athul/ros2_ws/src/build/my_bot
+[1.469s] Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/athul/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/src/install/my_bot
+[1.474s] Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/my_bot -- -j4 -l4
+[1.541s] Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/src/build/my_bot -- -j4 -l4
+[1.597s] Invoking command in '/home/athul/ros2_ws/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/my_bot
+[1.611s] -- Install configuration: ""
+[1.612s] -- Execute custom install script
+[1.613s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+[1.627s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.642s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.657s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.671s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.685s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.701s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.715s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.731s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/worlds/empty.world
+[1.745s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/worlds/obstacle.world
+[1.759s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.779s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.793s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.808s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.822s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.836s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/environment/path.sh
+[1.851s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/environment/path.dsv
+[1.865s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/local_setup.bash
+[1.879s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/local_setup.sh
+[1.894s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/local_setup.zsh
+[1.908s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/local_setup.dsv
+[1.923s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.dsv
+[1.944s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.959s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.973s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.988s] -- Symlinking: /home/athul/ros2_ws/src/install/my_bot/share/my_bot/package.xml
+[2.005s] Invoked command in '/home/athul/ros2_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/src/build/my_bot
