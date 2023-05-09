@@ -1,0 +1,18 @@
+[1.051s] Invoking command in '/home/athul/ros2_ws/build/serial_motor_demo': PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data
+[1.421s] running develop
+[1.636s] running egg_info
+[1.636s] writing serial_motor_demo.egg-info/PKG-INFO
+[1.637s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[1.637s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[1.637s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[1.637s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[1.689s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.690s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.743s] running build_ext
+[1.747s] Creating /home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[1.748s] Installing driver script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.749s] Installing gui script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.749s] 
+[1.749s] Installed /home/athul/ros2_ws/build/serial_motor_demo
+[1.749s] running install_data
+[1.791s] Invoked command in '/home/athul/ros2_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data
