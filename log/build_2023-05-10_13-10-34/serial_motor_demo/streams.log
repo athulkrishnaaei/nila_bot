@@ -1,0 +1,20 @@
+[2.192s] Invoking command in '/home/athul/ros2_ws/src/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/src/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/src/build/serial_motor_demo/build --no-deps install_data
+[2.954s] running develop
+[3.506s] running egg_info
+[3.507s] writing serial_motor_demo.egg-info/PKG-INFO
+[3.507s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[3.508s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[3.508s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[3.509s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[3.624s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.631s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.770s] running build_ext
+[3.777s] Creating /home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[3.778s] Installing driver script to /home/athul/ros2_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[3.778s] Installing gui script to /home/athul/ros2_ws/src/install/serial_motor_demo/lib/serial_motor_demo
+[3.778s] 
+[3.778s] Installed /home/athul/ros2_ws/src/build/serial_motor_demo
+[3.779s] running install_data
+[3.780s] copying resource/serial_motor_demo -> /home/athul/ros2_ws/src/install/serial_motor_demo/share/ament_index/resource_index/packages
+[3.781s] copying package.xml -> /home/athul/ros2_ws/src/install/serial_motor_demo/share/serial_motor_demo
+[3.861s] Invoked command in '/home/athul/ros2_ws/src/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/src/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/src/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/src/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/src/build/serial_motor_demo/build --no-deps install_data

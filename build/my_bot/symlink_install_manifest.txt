@@ -1,4 +1,8 @@
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/gazebo_params.yaml
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/main.rviz
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/mainn.rviz
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/my_controllers.yaml
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/config/view_bot.rviz
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/camera.xacro
@@ -8,7 +12,10 @@
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/description/ros2_control.xacro
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/camera.launch.py
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/launch_robot.launch.py
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+/home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/rplidar.launch.py
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/worlds/empty.world
 /home/athul/ros2_ws/src/install/my_bot/share/my_bot/worlds/obstacle.world
