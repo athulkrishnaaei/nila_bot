@@ -1,0 +1,26 @@
+{
+  "package_name": "rosbridge_test_msgs",
+  "non_idl_tuples": [
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/Num.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestChar.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestDurationArray.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderArray.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeader.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestHeaderTwo.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestTimeArray.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestUInt8FixedSizeArray16.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32Array.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:msg/TestFloat32BoundedArray.msg",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/AddTwoInts.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/SendBytes.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestArrayRequest.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestEmpty.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleRequestFields.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestMultipleResponseFields.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestNestedService.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestAndResponse.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestRequestOnly.srv",
+    "/home/athul/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs:srv/TestResponseOnly.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/athul/ros2_ws/build/rosbridge_msgs/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp

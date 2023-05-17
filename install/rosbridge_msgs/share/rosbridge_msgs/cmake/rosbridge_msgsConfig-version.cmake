@@ -1,0 +1,1 @@
+/home/athul/ros2_ws/build/rosbridge_msgs/ament_cmake_core/rosbridge_msgsConfig-version.cmake

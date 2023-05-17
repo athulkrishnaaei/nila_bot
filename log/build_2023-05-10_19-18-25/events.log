@@ -1,0 +1,704 @@
+[0.000000] (-) TimerEvent: {}
+[0.000305] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000388] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000450] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000483] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/athul/ros2_ws/install/gazebo_ros2_control')])}
+[0.000517] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/athul/ros2_ws/install/serial_motor_demo_msgs')])}
+[0.000547] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.023354] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.042467] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.064351] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.071050] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/home/athul/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/athul/ros2_ws/install/gazebo_ros2_control'], 'cwd': '/home/athul/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.076392] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.078161] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.080715] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/athul/ros2_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/athul/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.093025] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.094440] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.095382] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/athul/ros2_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/athul/ros2_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.102525] (-) TimerEvent: {}
+[0.185424] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.203180] (-) TimerEvent: {}
+[0.216402] (my_bot) CommandEnded: {'returncode': 0}
+[0.255823] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.259961] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.260603] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.278353] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/athul/ros2_ws/build/my_bot'], 'cwd': '/home/athul/ros2_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.299532] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.300798] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.303916] (-) TimerEvent: {}
+[0.306448] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.306904] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[0.313105] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.329879] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.330289] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[0.350046] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/mainn.rviz\n'}
+[0.366792] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[0.367182] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.370531] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.371036] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.371565] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.371992] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.372473] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.372877] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.373427] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.375139] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/launch/camera.launch.py\n'}
+[0.393156] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[0.404045] (-) TimerEvent: {}
+[0.413069] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.413416] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[0.428948] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.430757] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.432859] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/worlds/obstacle.world\n'}
+[0.433260] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.433521] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.433844] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.434959] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.435760] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.436596] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.437258] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.437936] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.438681] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.439347] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.440152] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.441180] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.461151] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.461953] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.462410] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.462992] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.466161] (my_bot) CommandEnded: {'returncode': 0}
+[0.504518] (-) TimerEvent: {}
+[0.514272] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.527740] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.572711] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.604648] (-) TimerEvent: {}
+[0.678647] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.681415] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.695167] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.704772] (-) TimerEvent: {}
+[0.712544] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.804885] (-) TimerEvent: {}
+[0.813415] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.835459] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.836368] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.837387] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.841264] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.843630] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.848736] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.905017] (-) TimerEvent: {}
+[1.005873] (-) TimerEvent: {}
+[1.010860] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.013646] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.106000] (-) TimerEvent: {}
+[1.197213] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206112] (-) TimerEvent: {}
+[1.210302] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.231043] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.231909] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.238679] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.300841] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.301305] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.308306] (-) TimerEvent: {}
+[1.317626] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.408428] (-) TimerEvent: {}
+[1.461595] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.508545] (-) TimerEvent: {}
+[1.608920] (-) TimerEvent: {}
+[1.696468] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.709031] (-) TimerEvent: {}
+[1.718341] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.737976] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.780277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.785140] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.795423] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[1.801158] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[1.809148] (-) TimerEvent: {}
+[1.856348] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.856644] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.856817] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.907021] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.909270] (-) TimerEvent: {}
+[1.915973] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.919627] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.922136] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.925252] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.937324] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.009406] (-) TimerEvent: {}
+[2.014917] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.022715] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/athul/ros2_ws/build/serial_motor_demo_msgs\n'}
+[2.075706] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.088904] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.104427] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.109644] (-) TimerEvent: {}
+[2.208488] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.209749] (-) TimerEvent: {}
+[2.310325] (-) TimerEvent: {}
+[2.410768] (-) TimerEvent: {}
+[2.450612] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.510880] (-) TimerEvent: {}
+[2.611383] (-) TimerEvent: {}
+[2.712284] (-) TimerEvent: {}
+[2.814617] (-) TimerEvent: {}
+[2.917531] (-) TimerEvent: {}
+[3.024300] (-) TimerEvent: {}
+[3.124755] (-) TimerEvent: {}
+[3.225241] (-) TimerEvent: {}
+[3.325824] (-) TimerEvent: {}
+[3.370850] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.425991] (-) TimerEvent: {}
+[3.426496] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[3.502956] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[3.514058] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] Built target serial_motor_demo_msgs__cpp\n'}
+[3.522163] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[3.526122] (-) TimerEvent: {}
+[3.545172] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.626234] (-) TimerEvent: {}
+[3.681155] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.683470] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.726347] (-) TimerEvent: {}
+[3.792125] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.826457] (-) TimerEvent: {}
+[3.928767] (-) TimerEvent: {}
+[4.029225] (-) TimerEvent: {}
+[4.051359] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[4.129346] (-) TimerEvent: {}
+[4.142703] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.229569] (-) TimerEvent: {}
+[4.329985] (-) TimerEvent: {}
+[4.430359] (-) TimerEvent: {}
+[4.530972] (-) TimerEvent: {}
+[4.631425] (-) TimerEvent: {}
+[4.640875] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.675380] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[4.731551] (-) TimerEvent: {}
+[4.832309] (-) TimerEvent: {}
+[4.909353] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.932431] (-) TimerEvent: {}
+[4.987136] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.032587] (-) TimerEvent: {}
+[5.134158] (-) TimerEvent: {}
+[5.235722] (-) TimerEvent: {}
+[5.333684] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.341914] (-) TimerEvent: {}
+[5.442353] (-) TimerEvent: {}
+[5.488877] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.544748] (-) TimerEvent: {}
+[5.624060] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.644883] (-) TimerEvent: {}
+[5.645350] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.656416] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.745057] (-) TimerEvent: {}
+[5.845732] (-) TimerEvent: {}
+[5.946220] (-) TimerEvent: {}
+[6.009943] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.020734] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[6.046350] (-) TimerEvent: {}
+[6.098656] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[6.129323] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.130794] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.146487] (-) TimerEvent: {}
+[6.252676] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[6.253046] (-) TimerEvent: {}
+[6.355313] (-) TimerEvent: {}
+[6.469550] (-) TimerEvent: {}
+[6.512627] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[6.569677] (-) TimerEvent: {}
+[6.670575] (-) TimerEvent: {}
+[6.710325] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[6.711432] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.750115] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.750524] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.770705] (-) TimerEvent: {}
+[6.872785] (-) TimerEvent: {}
+[6.904947] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[6.971496] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[6.973045] (-) TimerEvent: {}
+[7.008296] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.008803] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.073184] (-) TimerEvent: {}
+[7.173807] (-) TimerEvent: {}
+[7.198880] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.273939] (-) TimerEvent: {}
+[7.374518] (-) TimerEvent: {}
+[7.474898] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.475252] (-) TimerEvent: {}
+[7.484957] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.575400] (-) TimerEvent: {}
+[7.677091] (-) TimerEvent: {}
+[7.781215] (-) TimerEvent: {}
+[7.825121] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[7.882303] (-) TimerEvent: {}
+[7.947898] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[7.982476] (-) TimerEvent: {}
+[8.083073] (-) TimerEvent: {}
+[8.183732] (-) TimerEvent: {}
+[8.284397] (-) TimerEvent: {}
+[8.384870] (-) TimerEvent: {}
+[8.485762] (-) TimerEvent: {}
+[8.539393] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.586248] (-) TimerEvent: {}
+[8.686863] (-) TimerEvent: {}
+[8.730250] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[8.760841] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[8.786985] (-) TimerEvent: {}
+[8.808536] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[8.842664] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[8.888673] (-) TimerEvent: {}
+[8.989182] (-) TimerEvent: {}
+[9.000459] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[9.089314] (-) TimerEvent: {}
+[9.190228] (-) TimerEvent: {}
+[9.193310] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.235716] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[9.290357] (-) TimerEvent: {}
+[9.381529] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.390679] (-) TimerEvent: {}
+[9.491399] (-) TimerEvent: {}
+[9.580368] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[9.591288] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.591690] (-) TimerEvent: {}
+[9.692396] (-) TimerEvent: {}
+[9.724307] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[9.741574] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[9.747327] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[9.788701] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[9.792861] (-) TimerEvent: {}
+[9.893274] (-) TimerEvent: {}
+[9.993665] (-) TimerEvent: {}
+[10.094251] (-) TimerEvent: {}
+[10.124416] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[10.195380] (-) TimerEvent: {}
+[10.295874] (-) TimerEvent: {}
+[10.317722] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[10.345257] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.396017] (-) TimerEvent: {}
+[10.474969] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[10.496174] (-) TimerEvent: {}
+[10.550759] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[10.565585] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.596303] (-) TimerEvent: {}
+[10.596712] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.621011] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[10.696414] (-) TimerEvent: {}
+[10.700827] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[10.716966] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[10.745460] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[10.752408] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[10.752776] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[10.764385] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[10.796664] (-) TimerEvent: {}
+[10.800754] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[10.888659] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[10.896698] (-) TimerEvent: {}
+[10.909227] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[10.929881] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[10.949910] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[10.950253] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[10.971240] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[10.971648] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[10.985395] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[10.985811] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[10.996578] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.996938] (-) TimerEvent: {}
+[10.997199] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[11.019112] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[11.019598] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[11.031488] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[11.097063] (-) TimerEvent: {}
+[11.197482] (-) TimerEvent: {}
+[11.273248] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.297606] (-) TimerEvent: {}
+[11.309695] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[11.312922] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[11.322349] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[11.397881] (-) TimerEvent: {}
+[11.498855] (-) TimerEvent: {}
+[11.530745] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[11.544521] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[11.547281] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[11.598990] (-) TimerEvent: {}
+[11.604810] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[11.645106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[11.664484] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[11.699124] (-) TimerEvent: {}
+[11.776046] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[11.800454] (-) TimerEvent: {}
+[11.900937] (-) TimerEvent: {}
+[11.972140] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[12.006157] (-) TimerEvent: {}
+[12.007100] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[12.077088] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[12.106295] (-) TimerEvent: {}
+[12.206975] (-) TimerEvent: {}
+[12.300081] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[12.306877] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[12.307202] (-) TimerEvent: {}
+[12.308512] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[12.407338] (-) TimerEvent: {}
+[12.410686] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[12.447778] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[12.479836] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[12.507469] (-) TimerEvent: {}
+[12.600172] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[12.606751] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[12.607582] (-) TimerEvent: {}
+[12.608171] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[12.609321] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[12.611239] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[12.613966] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[12.626981] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.634660] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[12.639658] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[12.641462] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[12.641904] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[12.649591] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[12.650467] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[12.707714] (-) TimerEvent: {}
+[12.808169] (-) TimerEvent: {}
+[12.860041] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[12.876848] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[12.898377] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[12.908342] (-) TimerEvent: {}
+[12.914250] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[12.947196] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[12.962834] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.008444] (-) TimerEvent: {}
+[13.074074] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[13.090715] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[13.109839] (-) TimerEvent: {}
+[13.139135] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[13.209996] (-) TimerEvent: {}
+[13.233688] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[13.234453] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[13.235605] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[13.238366] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[13.244988] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[13.248639] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[13.278359] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[13.278965] (gazebo_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[13.310083] (-) TimerEvent: {}
+[13.410520] (-) TimerEvent: {}
+[13.510938] (-) TimerEvent: {}
+[13.611329] (-) TimerEvent: {}
+[13.711738] (-) TimerEvent: {}
+[13.721019] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[13.724640] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.811850] (-) TimerEvent: {}
+[13.901350] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.904341] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.905393] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/athul/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[13.905662] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.908997] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.909415] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.911985] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.912494] (-) TimerEvent: {}
+[13.914309] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.914904] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.915676] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.927440] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.012868] (-) TimerEvent: {}
+[14.113257] (-) TimerEvent: {}
+[14.136440] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[14.144183] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/athul/ros2_ws/build/gazebo_ros2_control\n'}
+[14.178788] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[14.180813] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[14.182228] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/athul/ros2_ws/build/gazebo_ros2_control', '--', '-j4', '-l4'], 'cwd': '/home/athul/ros2_ws/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[14.213425] (-) TimerEvent: {}
+[14.305594] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[14.308450] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_hardware_plugins\x1b[0m\n'}
+[14.310709] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[14.313540] (-) TimerEvent: {}
+[14.336713] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__python\x1b[0m\n'}
+[14.382607] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[14.395057] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[14.404106] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[14.414769] (-) TimerEvent: {}
+[14.515290] (-) TimerEvent: {}
+[14.616930] (-) TimerEvent: {}
+[14.717517] (-) TimerEvent: {}
+[14.731151] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__python.so\x1b[0m\n'}
+[14.817657] (-) TimerEvent: {}
+[14.854194] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[14.908989] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.911658] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.917769] (-) TimerEvent: {}
+[14.929025] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.986859] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[14.988326] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.003521] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.014285] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.017928] (-) TimerEvent: {}
+[15.060969] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[15.119589] (-) TimerEvent: {}
+[15.221372] (-) TimerEvent: {}
+[15.322331] (-) TimerEvent: {}
+[15.372318] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.393497] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.402226] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.425323] (-) TimerEvent: {}
+[15.518435] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[15.525479] (-) TimerEvent: {}
+[15.533360] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.624644] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.625586] (-) TimerEvent: {}
+[15.646597] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[15.726091] (-) TimerEvent: {}
+[15.827255] (-) TimerEvent: {}
+[15.904113] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[15.905270] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/athul/ros2_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/athul/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'athul'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1367'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/athul'), ('OLDPWD', '/home/athul'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/athul/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'athul'), ('WINDOWID', '62914567'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/athul/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/athul'), ('AMENT_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/athul/ros2_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[15.933929] (-) TimerEvent: {}
+[15.934736] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.937339] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.938277] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[15.948637] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[15.949370] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[15.953170] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[15.955182] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[15.966255] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[15.968200] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[15.968699] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[15.968930] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[15.969155] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[15.969373] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[15.969545] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[15.969722] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[15.969939] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.971481] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[15.976801] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[15.979122] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[15.980093] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[15.980993] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[15.981920] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.983560] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[15.985956] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.992516] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.992836] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.993030] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.993196] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.993360] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[15.994126] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[15.995422] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[15.996842] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.998989] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[16.000016] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[16.001168] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[16.002425] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[16.003992] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[16.005078] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[16.006144] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[16.011040] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[16.012005] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[16.013551] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[16.014446] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[16.015376] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[16.017189] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.018129] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.019666] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.021325] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[16.023314] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[16.025125] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[16.027632] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[16.029137] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[16.030221] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[16.031069] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[16.032647] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.034004] (-) TimerEvent: {}
+[16.034606] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.036305] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.037836] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[16.040300] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[16.042768] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[16.045123] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[16.046588] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[16.048031] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[16.049685] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[16.050893] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[16.052571] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[16.053535] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[16.054373] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[16.055927] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[16.057359] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[16.058830] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[16.061178] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[16.062729] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[16.064337] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[16.064950] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[16.094090] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[16.094438] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.094621] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.094884] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.095406] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.095857] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.096540] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.097280] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.098274] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[16.098796] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[16.100026] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[16.102194] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[16.104120] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[16.105267] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.108136] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.108603] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[16.108860] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.109859] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.111633] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.112491] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[16.113593] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.134114] (-) TimerEvent: {}
+[16.216354] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[16.234256] (-) TimerEvent: {}
+[16.236466] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[16.236861] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.238191] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.238487] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.242034] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.242381] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.242933] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.245134] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.245826] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.247079] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.247728] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/athul/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.258774] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[16.334832] (-) TimerEvent: {}
+[16.437131] (-) TimerEvent: {}
+[16.537626] (-) TimerEvent: {}
+[16.640415] (-) TimerEvent: {}
+[16.740935] (-) TimerEvent: {}
+[16.757092] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[16.758992] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[16.841226] (-) TimerEvent: {}
+[16.946901] (-) TimerEvent: {}
+[17.047334] (-) TimerEvent: {}
+[17.147787] (-) TimerEvent: {}
+[17.248292] (-) TimerEvent: {}
+[17.348698] (-) TimerEvent: {}
+[17.449233] (-) TimerEvent: {}
+[17.559739] (-) TimerEvent: {}
+[17.660898] (-) TimerEvent: {}
+[17.761726] (-) TimerEvent: {}
+[17.865373] (-) TimerEvent: {}
+[17.965844] (-) TimerEvent: {}
+[18.066403] (-) TimerEvent: {}
+[18.166976] (-) TimerEvent: {}
+[18.267558] (-) TimerEvent: {}
+[18.374018] (-) TimerEvent: {}
+[18.474938] (-) TimerEvent: {}
+[18.576337] (-) TimerEvent: {}
+[18.676780] (-) TimerEvent: {}
+[18.777339] (-) TimerEvent: {}
+[18.878572] (-) TimerEvent: {}
+[18.979678] (-) TimerEvent: {}
+[19.084337] (-) TimerEvent: {}
+[19.144204] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/athul/ros2_ws/build/serial_motor_demo/build', '--no-deps', 'install_data'], 'cwd': '/home/athul/ros2_ws/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_IN:en', 'USER': 'athul', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1367', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/athul', 'OLDPWD': '/home/athul', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/athul/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'athul', 'WINDOWID': '62914567', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/athul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/athul-VivoBook-ASUS-Laptop-X409UA:@/tmp/.ICE-unix/1239,unix/athul-VivoBook-ASUS-Laptop-X409UA:/tmp/.ICE-unix/1239', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/athul/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/athul', 'AMENT_PREFIX_PATH': '/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/athul/ros2_ws/build/serial_motor_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/athul/ros2_ws/install/serial_motor_demo_msgs:/home/athul/ros2_ws/install/my_bot'}, 'shell': False}
+[19.184889] (-) TimerEvent: {}
+[19.285877] (-) TimerEvent: {}
+[19.386433] (-) TimerEvent: {}
+[19.487703] (-) TimerEvent: {}
+[19.592523] (-) TimerEvent: {}
+[19.696333] (-) TimerEvent: {}
+[19.800310] (-) TimerEvent: {}
+[19.901286] (-) TimerEvent: {}
+[20.014282] (-) TimerEvent: {}
+[20.114911] (-) TimerEvent: {}
+[20.215608] (-) TimerEvent: {}
+[20.316771] (-) TimerEvent: {}
+[20.421302] (-) TimerEvent: {}
+[20.532651] (-) TimerEvent: {}
+[20.644778] (-) TimerEvent: {}
+[20.748362] (-) TimerEvent: {}
+[20.860309] (-) TimerEvent: {}
+[20.991714] (-) TimerEvent: {}
+[21.153844] (-) TimerEvent: {}
+[21.297481] (-) TimerEvent: {}
+[21.434213] (-) TimerEvent: {}
+[21.595753] (-) TimerEvent: {}
+[21.724518] (-) TimerEvent: {}
+[21.874841] (-) TimerEvent: {}
+[22.048378] (-) TimerEvent: {}
+[22.173806] (-) TimerEvent: {}
+[22.287213] (-) TimerEvent: {}
+[22.409051] (-) TimerEvent: {}
+[22.518109] (-) TimerEvent: {}
+[22.788338] (-) TimerEvent: {}
+[23.413196] (-) TimerEvent: {}
+[23.733814] (-) TimerEvent: {}
+[23.871805] (-) TimerEvent: {}
+[24.009350] (-) TimerEvent: {}
+[24.223959] (-) TimerEvent: {}
+[24.509757] (-) TimerEvent: {}
+[24.769949] (-) TimerEvent: {}
+[24.952143] (-) TimerEvent: {}
+[25.107512] (-) TimerEvent: {}
+[25.321353] (-) TimerEvent: {}
+[25.470477] (-) TimerEvent: {}
+[25.681254] (-) TimerEvent: {}
+[25.830100] (-) TimerEvent: {}
+[25.989833] (-) TimerEvent: {}
+[26.151953] (-) TimerEvent: {}
+[26.257939] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[26.279186] (-) TimerEvent: {}
+[26.440640] (-) TimerEvent: {}
+[26.646745] (-) TimerEvent: {}
+[26.815146] (-) TimerEvent: {}
+[26.979721] (-) TimerEvent: {}
+[27.153730] (-) TimerEvent: {}
+[27.284166] (-) TimerEvent: {}
+[27.404430] (-) TimerEvent: {}
+[27.564367] (-) TimerEvent: {}
+[27.788453] (-) TimerEvent: {}
+[28.006540] (-) TimerEvent: {}
+[28.180044] (-) TimerEvent: {}
+[28.453501] (-) TimerEvent: {}
+[28.675354] (-) TimerEvent: {}
+[28.809797] (-) TimerEvent: {}
+[29.009147] (-) TimerEvent: {}
+[29.224380] (-) TimerEvent: {}
+[29.555419] (-) TimerEvent: {}
+[29.732987] (-) TimerEvent: {}
+[30.104688] (-) TimerEvent: {}
+[30.341321] (-) TimerEvent: {}
+[30.694850] (-) TimerEvent: {}
+[30.995893] (-) TimerEvent: {}
+[31.484740] (-) TimerEvent: {}
+[32.044626] (-) TimerEvent: {}
+[32.809256] (-) TimerEvent: {}
+[33.238899] (-) TimerEvent: {}
+[33.834900] (-) TimerEvent: {}
+[34.317556] (-) TimerEvent: {}
+[34.627896] (-) TimerEvent: {}
+[35.472611] (-) TimerEvent: {}
+[35.796622] (-) TimerEvent: {}
+[36.112324] (-) TimerEvent: {}
+[36.634017] (-) TimerEvent: {}
+[37.033505] (-) TimerEvent: {}
+[37.672805] (-) TimerEvent: {}
+[38.377474] (-) TimerEvent: {}
+[38.896064] (-) TimerEvent: {}
+[39.361011] (-) TimerEvent: {}
+[39.731845] (-) TimerEvent: {}
+[40.138840] (-) TimerEvent: {}
+[40.798340] (-) TimerEvent: {}
+[41.407653] (-) TimerEvent: {}
+[41.778665] (-) TimerEvent: {}
+[42.398630] (-) TimerEvent: {}
+[42.796382] (-) TimerEvent: {}
+[44.449452] (-) TimerEvent: {}
+[45.628854] (-) TimerEvent: {}
+[46.811689] (-) TimerEvent: {}
+[48.229297] (-) TimerEvent: {}
+[49.047227] (-) TimerEvent: {}
+[49.794273] (-) TimerEvent: {}
+[50.998786] (-) TimerEvent: {}
+[52.036071] (-) TimerEvent: {}
+[52.749391] (-) TimerEvent: {}
+[53.923367] (-) TimerEvent: {}
+[54.661469] (-) TimerEvent: {}
+[55.875266] (-) TimerEvent: {}
+[56.724319] (-) TimerEvent: {}
+[56.947512] (-) TimerEvent: {}
+[61.416550] (-) TimerEvent: {}
+[64.375741] (-) TimerEvent: {}
+[65.482212] (-) TimerEvent: {}
+[67.514009] (-) TimerEvent: {}
+[70.296282] (-) TimerEvent: {}
+[73.228951] (-) TimerEvent: {}
+[81.397837] (-) TimerEvent: {}

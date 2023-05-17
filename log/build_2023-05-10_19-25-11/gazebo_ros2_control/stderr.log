@@ -1,0 +1,8 @@
+make[2]: *** Deleting file 'libgazebo_hardware_plugins.so'
+make[2]: *** wait: No child processes.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/gazebo_ros2_control.dir/all] Error 2
+make[2]: *** [CMakeFiles/gazebo_hardware_plugins.dir/build.make:252: libgazebo_hardware_plugins.so] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/gazebo_hardware_plugins.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt
