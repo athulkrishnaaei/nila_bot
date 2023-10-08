@@ -1,0 +1,166 @@
+mkdir -p dev_ws/src
+cd dev_ws
+colcon build --symlink-install
+do this code both in rpi and dev machine
+cd src
+ros2 pkg create --build-type ament_cmake my_package
+
+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
+
+
+
+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
+
+
+
+rosdep install --from-paths src --ignore-src -r -y
+
+for running packages
+colcon build --symlink-install
+ros2 launch my_bot rsp.launch.py
+
+//for adding wheels
+
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+
+
+//part 3 running robot in gazebo
+ros2 launch my_bot rsp.launch.py use_sim_time:=true
+ros2 launch gazebo_ros gazebo.launch.py
+ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity bot_name
+
+ros2 launch my_bot launch_sim.launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obstacles.world
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+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
+
+
+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
+
+#ros code for controlling robot via keyboard
+on jetson
+cd robot_ws
+source install/setup.bash
+ros2 launch my_bot launch_robot.launch.py
+
+on dev computer
+
+rviz2 #to launch the rviz default world
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+to control with keyboard
+
+
+#######################################################################################################
+TO RUN TELOP ON PHONE
+ON DEV MACHINE RUN THE FOLLOWING CODE
+ros2 launch my_bot joystick.launch.py
+ros2 run rosbridge_server rosbridge_websocket
+npm start
+
+ON JETSON NANO
+ros2 launch camera.launch.py
+ros2 launch my_bot launch_robot.launch.py
+ros2 run web_video_server web_video_server
+
+
+sudo apt install joystick jstest-gtk evtest
+########################################################################################################
+TO RUN STUDIO.FLOXGLOVE.DEV
+
+RUN ON DEV MACHINE
+ros2 run rosbridge_server rosbridge_websocket
+ros2 run rosapi rosapi_node
+RUN THIS CODE ON JETSON NANO
+ros2 launch camera.launch.py
+ros2 launch my_bot launch_robot.launch.py
+
+#######################################################################################################
+TO RUN SLAM TESGT
+ON DEV MACHINE RUN
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obstacles.world
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
+rviz2
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+to control wit keyboard
+
+###############################################################
+NAVIGATION
+
+sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup
+sudo apt install ros-foxy-twist-mux
+
+ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped 
+
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+###############################################################
+RUNNING BALL TRACKER MODE
+
+ros2 run ball_tracker detect_ball --ros-args -p tuning_mode:=true -r image_in:=camera/image_raw
+
+
+
+on bot
+
+ros2 launch my_bot ball_tracker.launch.py sim_mode:=true
+
+on dev machine
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed
+
+ros2 run rqt_image_view rqt_image_view
+ros2 launch ball_tracker ball_tracker.launch.py tune_detection:=true detect_only:=true image_topic:=/camera/image_raw/uncompressed
+
+ros2 launch ball_tracker ball_tracker.launch.py params_file:=src/my_bot/config/ball_tracker_params_robot.yaml image_topic:=/camera/image_raw/uncompressed
+
+#####################################################################
+on bot
+robot launch
+camera launch
+
+to run lidar
+ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0 -p frame_id:=laser_frame -p angle_compensate:=true -p scan_mode:=Standard
+
+
+
+ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/serial/by-path/platform-70090000.xusb-usb-0:2.1:1.0-port0 -p frame_id:=laser_frame -p angle_compensate:=true -p scan_mode:=Standard
+
+platform-70090000.xusb-usb-0:2.3:1.0-port0
+
+ros2 launch my_bot rplidar.launch.py
+killall rplidar_composition
+
+
+####################################################################
+ultimate navigaition
+on jetson run these commands
+ros2 launch my_bot launch_robot.launch.py
+ros2 launch my_bot rplidar.launch.py
+ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped 
+
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+
+on dev machine
+rviz2
+ros2 launch nav2_bringup localization_launch.py map:=./office_save.yaml use_sim_time:=false
+then on rviz set initial point
+in map change topic/durability to transient local
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=false map_subscribe_transient_local:=true
+ros2 launch my_bot joystick.launch.py
+#####################################################################
+
+ros2 simulating navigation on rviz2
+ros2 run twist_mux twist_mux --ros-args --params-file ./src/my_bot/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+
+
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/obstacles.world
+rviz2
+ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
+
+
+

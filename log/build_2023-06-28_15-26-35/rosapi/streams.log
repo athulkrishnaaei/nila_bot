@@ -1,0 +1,32 @@
+[0.053s] Invoking command in '/home/athul/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/athul/ros2_ws/build/rosapi -- -j4 -l4
+[0.186s] Invoked command in '/home/athul/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/athul/ros2_ws/build/rosapi -- -j4 -l4
+[0.246s] Invoking command in '/home/athul/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/athul/ros2_ws/build/rosapi
+[0.278s] -- Install configuration: ""
+[0.282s] -- Execute custom install script
+[0.282s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/pythonpath.sh
+[0.285s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/pythonpath.dsv
+[0.285s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/__init__.py
+[0.286s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/glob_helper.py
+[0.286s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/objectutils.py
+[0.287s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/params.py
+[0.287s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/proxy.py
+[0.288s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi/stringify_field_types.py
+[0.289s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/ament_index/resource_index/package_run_dependencies/rosapi
+[0.289s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/ament_index/resource_index/parent_prefix_path/rosapi
+[0.290s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.dsv
+[0.292s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/path.sh
+[0.293s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/environment/path.dsv
+[0.294s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/local_setup.bash
+[0.294s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/local_setup.sh
+[0.295s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/local_setup.zsh
+[0.296s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/local_setup.dsv
+[0.297s] -- Symlinking: /home/athul/ros2_ws/install/rosapi/share/rosapi/package.dsv
+[0.320s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/ament_index/resource_index/packages/rosapi
+[0.320s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/cmake/rosapiConfig.cmake
+[0.320s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/cmake/rosapiConfig-version.cmake
+[0.321s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/package.xml
+[0.321s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/lib/rosapi/rosapi_node
+[0.321s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosapi/share/rosapi/mapping_rules.yaml
+[0.403s] Listing '/home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages/rosapi'...
+[0.432s] Invoked command in '/home/athul/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_library:/home/athul/ros2_ws/install/rosapi_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/athul/ros2_ws/build/rosapi

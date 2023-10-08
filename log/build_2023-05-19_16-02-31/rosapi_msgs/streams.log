@@ -1,0 +1,10 @@
+[0.095s] Invoking command in '/home/athul/ros2_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/ball_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/rosapi_msgs -- -j4 -l4
+[0.363s] [ 12%] Built target rosapi_msgs__rosidl_generator_c
+[0.371s] [ 12%] Built target rosapi_msgs__cpp
+[0.559s] [ 24%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[0.604s] [ 36%] Built target rosapi_msgs__rosidl_typesupport_c
+[0.614s] [ 49%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[0.756s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[0.798s] [ 73%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[0.813s] make[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+[0.813s] make: *** [Makefile:141: all] Interrupt

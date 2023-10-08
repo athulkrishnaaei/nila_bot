@@ -1,0 +1,1 @@
+Invoking command in '/home/athul/ros2_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/ball_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/rosapi_msgs -- -j4 -l4

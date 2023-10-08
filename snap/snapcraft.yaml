@@ -12,7 +12,7 @@ parts:
  ros-tutorials:
    plugin: catkin
    source: https://github.com/athulkrishnaaei/nila_bot
-   source-branch: develop
+   source-branch: master
    source-subdir: ros2_ws
    stage-packages:
        - ros-foxy-roslaunch

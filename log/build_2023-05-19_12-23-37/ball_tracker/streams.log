@@ -1,0 +1,19 @@
+[1.914s] Invoking command in '/home/athul/ros2_ws/build/ball_tracker': PYTHONPATH=/home/athul/ros2_ws/build/ball_tracker/prefix_override:/home/athul/ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/ball_tracker/build --no-deps install_data
+[2.733s] running develop
+[3.145s] running egg_info
+[3.145s] writing ball_tracker.egg-info/PKG-INFO
+[3.145s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[3.146s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[3.146s] writing requirements to ball_tracker.egg-info/requires.txt
+[3.146s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[3.263s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[3.273s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[3.379s] running build_ext
+[3.379s] Creating /home/athul/ros2_ws/install/ball_tracker/lib/python3.8/site-packages/ball-tracker.egg-link (link to .)
+[3.380s] Installing detect_ball script to /home/athul/ros2_ws/install/ball_tracker/lib/ball_tracker
+[3.380s] Installing detect_ball_3d script to /home/athul/ros2_ws/install/ball_tracker/lib/ball_tracker
+[3.381s] Installing follow_ball script to /home/athul/ros2_ws/install/ball_tracker/lib/ball_tracker
+[3.381s] 
+[3.381s] Installed /home/athul/ros2_ws/build/ball_tracker
+[3.382s] running install_data
+[3.843s] Invoked command in '/home/athul/ros2_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/athul/ros2_ws/build/ball_tracker/prefix_override:/home/athul/ros2_ws/install/ball_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/ball_tracker/build --no-deps install_data

@@ -1,0 +1,12 @@
+[0.092s] Invoking command in '/home/athul/ros2_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/ball_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/rosbridge_msgs -- -j4 -l4
+[0.251s] [  2%] Built target rosbridge_msgs__cpp
+[0.272s] [ 12%] Built target rosbridge_msgs__rosidl_generator_c
+[0.418s] [ 23%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[0.452s] [ 33%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[0.460s] [ 43%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[0.515s] [ 53%] Built target rosbridge_msgs__rosidl_typesupport_c
+[0.595s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[0.647s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[0.745s] [ 74%] Built target rosbridge_msgs
+[0.795s] make[1]: *** [CMakeFiles/Makefile2:554: rosbridge_msgs__py/CMakeFiles/rosbridge_msgs__py.dir/all] Interrupt
+[0.795s] make: *** [Makefile:141: all] Interrupt

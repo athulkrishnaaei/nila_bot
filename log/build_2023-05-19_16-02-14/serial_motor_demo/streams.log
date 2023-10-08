@@ -1,0 +1,18 @@
+[1.462s] Invoking command in '/home/athul/ros2_ws/build/serial_motor_demo': PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_server/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/ball_tracker:/home/athul/ros2_ws/install/ball_tracker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data
+[1.917s] running develop
+[2.182s] running egg_info
+[2.182s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.183s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.183s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.184s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.184s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.250s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.251s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.305s] running build_ext
+[2.306s] Creating /home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[2.307s] Installing driver script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.308s] Installing gui script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.308s] 
+[2.308s] Installed /home/athul/ros2_ws/build/serial_motor_demo
+[2.308s] running install_data
+[2.351s] Invoked command in '/home/athul/ros2_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/serial_motor_demo:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_server/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/athul/ros2_ws/install/rosapi_msgs/lib/python3.8/site-packages:/home/athul/ros2_ws/build/ball_tracker:/home/athul/ros2_ws/install/ball_tracker/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data

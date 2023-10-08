@@ -1,0 +1,35 @@
+[0.418s] Invoking command in '/home/athul/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/gazebo_ros2_control -- -j4 -l4
+[1.664s] [ 50%] Built target gazebo_hardware_plugins
+[2.797s] [100%] Built target gazebo_ros2_control
+[3.018s] Invoked command in '/home/athul/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/gazebo_ros2_control -- -j4 -l4
+[3.723s] Invoking command in '/home/athul/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/build/gazebo_ros2_control
+[3.881s] -- Install configuration: ""
+[3.884s] -- Execute custom install script
+[3.912s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[3.920s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[3.921s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[3.922s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[3.925s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[3.956s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[3.958s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[3.960s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[3.961s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[3.963s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[3.992s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[4.006s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[4.007s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[4.007s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[4.007s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[4.007s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[4.007s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[4.014s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[4.019s] -- Symlinking: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[4.152s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[4.157s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[4.164s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.168s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.194s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[4.207s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[4.217s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[4.246s] -- Up-to-date symlink: /home/athul/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[4.276s] Invoked command in '/home/athul/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/athul/ros2_ws/build/gazebo_ros2_control

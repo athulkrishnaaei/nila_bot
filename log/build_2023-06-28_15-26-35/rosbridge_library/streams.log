@@ -1,0 +1,55 @@
+[0.065s] Invoking command in '/home/athul/ros2_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/athul/ros2_ws/build/rosbridge_library -- -j4 -l4
+[0.236s] Invoked command in '/home/athul/ros2_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/athul/ros2_ws/build/rosbridge_library -- -j4 -l4
+[0.928s] Invoking command in '/home/athul/ros2_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/athul/ros2_ws/build/rosbridge_library
+[0.988s] -- Install configuration: ""
+[0.994s] -- Execute custom install script
+[0.994s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[0.995s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[1.010s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/__init__.py
+[1.012s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/__init__.py
+[1.012s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise.py
+[1.012s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise_service.py
+[1.012s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/call_service.py
+[1.013s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/defragmentation.py
+[1.013s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/fragmentation.py
+[1.013s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/publish.py
+[1.013s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/service_response.py
+[1.022s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/subscribe.py
+[1.022s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/unadvertise_service.py
+[1.022s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capability.py
+[1.022s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/__init__.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/cbor_conversion.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/exceptions.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/message_conversion.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/outgoing_message.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/pngcompression.py
+[1.023s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/publishers.py
+[1.024s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/ros_loader.py
+[1.024s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/services.py
+[1.030s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscribers.py
+[1.030s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscription_modifiers.py
+[1.032s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/topics.py
+[1.033s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/protocol.py
+[1.033s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/rosbridge_protocol.py
+[1.034s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/__init__.py
+[1.034s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/cbor.py
+[1.034s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[1.034s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[1.034s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[1.037s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[1.040s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[1.040s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[1.040s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[1.041s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[1.041s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[1.044s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[1.045s] -- Symlinking: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[1.076s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[1.077s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[1.081s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[1.081s] -- Up-to-date symlink: /home/athul/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[1.183s] Listing '/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library'...
+[1.183s] Listing '/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities'...
+[1.184s] Listing '/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal'...
+[1.185s] Listing '/home/athul/ros2_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util'...
+[1.214s] Invoked command in '/home/athul/ros2_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs:/home/athul/dev_ws/install/serial_motor_demo_msgs:/home/athul/dev_ws/install/my_bot:/home/athul/dev_ws/install/serial_motor_demo:/opt/ros/foxy LD_LIBRARY_PATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/athul/ros2_ws/build/rosbridge_library

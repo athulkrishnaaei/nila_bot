@@ -1,0 +1,7 @@
+[ 12%] Built target rosapi_msgs__rosidl_generator_c
+[ 12%] Built target rosapi_msgs__cpp
+[ 24%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[ 36%] Built target rosapi_msgs__rosidl_typesupport_c
+[ 49%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[ 61%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[ 73%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp

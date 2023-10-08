@@ -1,0 +1,18 @@
+[1.867s] Invoking command in '/home/athul/ros2_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data
+[2.310s] running develop
+[2.560s] running egg_info
+[2.560s] writing serial_motor_demo.egg-info/PKG-INFO
+[2.560s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[2.560s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[2.561s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[2.561s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[2.616s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.618s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[2.670s] running build_ext
+[2.670s] Creating /home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[2.672s] Installing driver script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.672s] Installing gui script to /home/athul/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.672s] 
+[2.672s] Installed /home/athul/ros2_ws/build/serial_motor_demo
+[2.673s] running install_data
+[2.715s] Invoked command in '/home/athul/ros2_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/athul/ros2_ws/build/serial_motor_demo/prefix_override:/home/athul/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/athul/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/athul/ros2_ws/build/serial_motor_demo/build --no-deps install_data

@@ -1,0 +1,4 @@
+[0.092s] Invoking command in '/home/athul/ros2_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/ball_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/gazebo_ros2_control -- -j4 -l4
+[0.456s] [ 50%] Built target gazebo_hardware_plugins
+[0.531s] [100%] Built target gazebo_ros2_control
+[0.590s] Invoked command in '/home/athul/ros2_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athul/ros2_ws/install/serial_motor_demo:/home/athul/ros2_ws/install/ball_tracker:/opt/ros/foxy /usr/bin/cmake --build /home/athul/ros2_ws/build/gazebo_ros2_control -- -j4 -l4
