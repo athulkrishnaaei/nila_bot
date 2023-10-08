@@ -5,7 +5,7 @@ do this code both in rpi and dev machine
 cd src
 ros2 pkg create --build-type ament_cmake my_package
 
-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
+
 
 
 
